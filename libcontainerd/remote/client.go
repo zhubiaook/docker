@@ -1,4 +1,4 @@
-package remote // import "github.com/docker/docker/libcontainerd/remote"
+package remote // import "github.com/zhubiaook/docker/libcontainerd/remote"
 
 import (
 	"context"
@@ -24,10 +24,10 @@ import (
 	"github.com/containerd/containerd/images"
 	v2runcoptions "github.com/containerd/containerd/runtime/v2/runc/options"
 	"github.com/containerd/typeurl/v2"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libcontainerd/queue"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/libcontainerd/queue"
+	libcontainerdtypes "github.com/zhubiaook/docker/libcontainerd/types"
+	"github.com/zhubiaook/docker/pkg/ioutils"
 	"github.com/hashicorp/go-multierror"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	specs "github.com/opencontainers/runtime-spec/specs-go"

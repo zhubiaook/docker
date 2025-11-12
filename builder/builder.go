@@ -2,18 +2,18 @@
 //
 // Historically, only server-side Dockerfile interpreters existed.
 // This package allows for other implementations of Docker builders.
-package builder // import "github.com/docker/docker/builder"
+package builder // import "github.com/zhubiaook/docker/builder"
 
 import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/backend"
+	"github.com/zhubiaook/docker/api/types/container"
+	containerpkg "github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

@@ -1,4 +1,4 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "github.com/zhubiaook/docker/integration/build"
 
 import (
 	"bufio"
@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/testutil/daemon"
-	"github.com/docker/docker/testutil/fakecontext"
-	"github.com/docker/docker/testutil/fixtures/load"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/integration/internal/container"
+	"github.com/zhubiaook/docker/pkg/jsonmessage"
+	"github.com/zhubiaook/docker/pkg/stdcopy"
+	"github.com/zhubiaook/docker/testutil/daemon"
+	"github.com/zhubiaook/docker/testutil/fakecontext"
+	"github.com/zhubiaook/docker/testutil/fixtures/load"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

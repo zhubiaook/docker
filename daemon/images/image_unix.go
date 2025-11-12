@@ -1,13 +1,13 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/zhubiaook/docker/daemon/images"
 
 import (
 	"context"
 
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
 	"github.com/sirupsen/logrus"
 )
 

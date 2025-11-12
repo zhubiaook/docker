@@ -1,4 +1,4 @@
-package fakestorage // import "github.com/docker/docker/testutil/fakestorage"
+package fakestorage // import "github.com/zhubiaook/docker/testutil/fakestorage"
 
 import (
 	"context"
@@ -11,13 +11,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/environment"
-	"github.com/docker/docker/testutil/fakecontext"
-	"github.com/docker/docker/testutil/request"
+	"github.com/zhubiaook/docker/api/types"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/client"
+	"github.com/zhubiaook/docker/testutil"
+	"github.com/zhubiaook/docker/testutil/environment"
+	"github.com/zhubiaook/docker/testutil/fakecontext"
+	"github.com/zhubiaook/docker/testutil/request"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/v3/assert"
 )

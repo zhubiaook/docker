@@ -1,14 +1,14 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"os"
 	"sort"
 	"testing"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/daemon/images"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/registry"
+	"github.com/zhubiaook/docker/daemon/config"
+	"github.com/zhubiaook/docker/daemon/images"
+	"github.com/zhubiaook/docker/libnetwork"
+	"github.com/zhubiaook/docker/registry"
 	"github.com/sirupsen/logrus"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

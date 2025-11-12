@@ -9,8 +9,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/docker/libnetwork/internal/setmatrix"
-	"github.com/docker/docker/libnetwork/osl"
+	"github.com/zhubiaook/docker/libnetwork/internal/setmatrix"
+	"github.com/zhubiaook/docker/libnetwork/osl"
 	"github.com/sirupsen/logrus"
 )
 

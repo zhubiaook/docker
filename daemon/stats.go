@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/log"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/api/types/versions/v1p20"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/backend"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/api/types/versions/v1p20"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/ioutils"
 )
 
 // ContainerStats writes information about the container to the stream

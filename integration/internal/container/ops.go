@@ -3,10 +3,10 @@ package container
 import (
 	"strings"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/strslice"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	mounttypes "github.com/zhubiaook/docker/api/types/mount"
+	networktypes "github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

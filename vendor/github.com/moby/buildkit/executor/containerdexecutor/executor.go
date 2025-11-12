@@ -18,7 +18,7 @@ import (
 	"github.com/containerd/containerd/mount"
 	containerdoci "github.com/containerd/containerd/oci"
 	"github.com/containerd/continuity/fs"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	"github.com/moby/buildkit/executor"
 	"github.com/moby/buildkit/executor/oci"
 	gatewayapi "github.com/moby/buildkit/frontend/gateway/pb"

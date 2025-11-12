@@ -1,4 +1,4 @@
-package versions // import "github.com/docker/docker/api/types/versions"
+package versions // import "github.com/zhubiaook/docker/api/types/versions"
 
 import (
 	"strconv"

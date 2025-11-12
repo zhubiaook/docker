@@ -1,12 +1,12 @@
-package convert // import "github.com/docker/docker/daemon/cluster/convert"
+package convert // import "github.com/zhubiaook/docker/daemon/cluster/convert"
 
 import (
 	"strings"
 
-	basictypes "github.com/docker/docker/api/types"
-	networktypes "github.com/docker/docker/api/types/network"
-	types "github.com/docker/docker/api/types/swarm"
-	netconst "github.com/docker/docker/libnetwork/datastore"
+	basictypes "github.com/zhubiaook/docker/api/types"
+	networktypes "github.com/zhubiaook/docker/api/types/network"
+	types "github.com/zhubiaook/docker/api/types/swarm"
+	netconst "github.com/zhubiaook/docker/libnetwork/datastore"
 	gogotypes "github.com/gogo/protobuf/types"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 )

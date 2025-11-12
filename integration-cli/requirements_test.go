@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/plugin"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/requirement"
-	"github.com/docker/docker/testutil/registry"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/client"
+	"github.com/zhubiaook/docker/integration-cli/requirement"
+	"github.com/zhubiaook/docker/testutil/registry"
 )
 
 func DaemonIsWindows() bool {

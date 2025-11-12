@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/strslice"
 	"github.com/moby/buildkit/frontend/dockerfile/command"
 	"github.com/moby/buildkit/frontend/dockerfile/parser"
 	"github.com/moby/buildkit/util/suggest"

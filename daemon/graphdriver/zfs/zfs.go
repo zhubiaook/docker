@@ -1,7 +1,7 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package zfs // import "github.com/docker/docker/daemon/graphdriver/zfs"
+package zfs // import "github.com/zhubiaook/docker/daemon/graphdriver/zfs"
 
 import (
 	"fmt"
@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/parsers"
+	"github.com/zhubiaook/docker/daemon/graphdriver"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/parsers"
 	zfs "github.com/mistifyio/go-zfs/v3"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"

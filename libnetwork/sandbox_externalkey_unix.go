@@ -12,9 +12,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/pkg/reexec"
+	"github.com/zhubiaook/docker/pkg/stringid"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 )

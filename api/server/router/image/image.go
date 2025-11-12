@@ -1,10 +1,10 @@
-package image // import "github.com/docker/docker/api/server/router/image"
+package image // import "github.com/zhubiaook/docker/api/server/router/image"
 
 import (
-	"github.com/docker/docker/api/server/router"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/reference"
+	"github.com/zhubiaook/docker/api/server/router"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
+	"github.com/zhubiaook/docker/reference"
 )
 
 // imageRouter is a router to talk with the image controller

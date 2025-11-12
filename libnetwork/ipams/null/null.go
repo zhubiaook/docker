@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/docker/libnetwork/discoverapi"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/discoverapi"
+	"github.com/zhubiaook/docker/libnetwork/ipamapi"
+	"github.com/zhubiaook/docker/libnetwork/types"
 )
 
 var (

@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/zhubiaook/docker/builder/remotecontext"
 
 import (
 	"encoding/hex"
@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/pkg/pools"
+	"github.com/zhubiaook/docker/builder"
+	"github.com/zhubiaook/docker/pkg/pools"
 	"github.com/pkg/errors"
 )
 

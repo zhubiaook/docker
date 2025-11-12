@@ -1,9 +1,9 @@
-package service // import "github.com/docker/docker/volume/service"
+package service // import "github.com/zhubiaook/docker/volume/service"
 
 import (
 	"encoding/json"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	bolt "go.etcd.io/bbolt"

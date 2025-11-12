@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/config"
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
+	"github.com/zhubiaook/docker/libnetwork/config"
+	"github.com/zhubiaook/docker/libnetwork/datastore"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/options"
 	"github.com/docker/libkv/store"
 )
 

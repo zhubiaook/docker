@@ -1,13 +1,13 @@
-package v1 // import "github.com/docker/docker/image/v1"
+package v1 // import "github.com/zhubiaook/docker/image/v1"
 
 import (
 	"encoding/json"
 	"strings"
 
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
+	"github.com/zhubiaook/docker/pkg/stringid"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

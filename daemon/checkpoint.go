@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/daemon/names"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/daemon/names"
 )
 
 var (

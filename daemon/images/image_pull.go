@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/zhubiaook/docker/daemon/images"
 
 import (
 	"context"
@@ -9,13 +9,13 @@ import (
 	"github.com/containerd/containerd/leases"
 	"github.com/containerd/containerd/namespaces"
 	"github.com/docker/distribution/reference"
-	imagetypes "github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/distribution"
-	progressutils "github.com/docker/docker/distribution/utils"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
+	imagetypes "github.com/zhubiaook/docker/api/types/image"
+	"github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/distribution"
+	progressutils "github.com/zhubiaook/docker/distribution/utils"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/progress"
+	"github.com/zhubiaook/docker/pkg/streamformatter"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
@@ -66,7 +66,7 @@ func (i *ImageService) PullImage(ctx context.Context, image, tag string, platfor
 		img, err := i.GetImage(ctx, ref.String(), imagetypes.GetImageOpts{Platform: platform})
 
 		// Note that this is a special case where GetImage returns both an image
-		// and an error: https://github.com/docker/docker/blob/v20.10.7/daemon/images/image.go#L175-L183
+		// and an error: https://github.com/zhubiaook/docker/blob/v20.10.7/daemon/images/image.go#L175-L183
 		if errdefs.IsNotFound(err) && img != nil {
 			po := streamformatter.NewJSONProgressOutput(outStream, false)
 			progress.Messagef(po, "", `WARNING: %s`, err.Error())

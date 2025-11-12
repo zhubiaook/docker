@@ -1,4 +1,4 @@
-package volume // import "github.com/docker/docker/volume"
+package volume // import "github.com/zhubiaook/docker/volume"
 
 import (
 	"context"

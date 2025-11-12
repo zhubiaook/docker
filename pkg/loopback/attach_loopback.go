@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package loopback // import "github.com/docker/docker/pkg/loopback"
+package loopback // import "github.com/zhubiaook/docker/pkg/loopback"
 
 import (
 	"errors"

@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/platform"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/platform"
 )
 
 func (daemon *Daemon) stats(c *container.Container) (*types.StatsJSON, error) {

@@ -6,8 +6,8 @@ import (
 	cerrdefs "github.com/containerd/containerd/errdefs"
 	containerdimages "github.com/containerd/containerd/images"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/image"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/errdefs"
 )
 
 // ContainerResize changes the size of the TTY of the process running

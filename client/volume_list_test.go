@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"bytes"
@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/volume"
+	"github.com/zhubiaook/docker/errdefs"
 )
 
 func TestVolumeListError(t *testing.T) {

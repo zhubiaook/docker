@@ -1,10 +1,10 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/zhubiaook/docker/daemon/images"
 
 import (
 	"context"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/image"
+	"github.com/zhubiaook/docker/image"
 )
 
 // TagImage adds the given reference to the image ID provided.

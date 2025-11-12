@@ -1,11 +1,11 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/zhubiaook/docker/daemon/cluster"
 
 import (
 	"encoding/json"
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/zhubiaook/docker/pkg/ioutils"
 )
 
 func loadPersistentState(root string) (*nodeStartConfig, error) {

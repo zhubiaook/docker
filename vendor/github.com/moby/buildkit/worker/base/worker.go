@@ -14,7 +14,7 @@ import (
 	"github.com/containerd/containerd/leases"
 	"github.com/containerd/containerd/platforms"
 	"github.com/containerd/containerd/remotes/docker"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	"github.com/hashicorp/go-multierror"
 	"github.com/moby/buildkit/cache"
 	"github.com/moby/buildkit/cache/metadata"

@@ -16,19 +16,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	dconfig "github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/testutil/request"
-	"github.com/docker/docker/volume"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/mount"
+	"github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/client"
+	dconfig "github.com/zhubiaook/docker/daemon/config"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/integration-cli/cli"
+	"github.com/zhubiaook/docker/integration-cli/cli/build"
+	"github.com/zhubiaook/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/testutil/request"
+	"github.com/zhubiaook/docker/volume"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
@@ -1224,7 +1224,7 @@ func (s *DockerAPISuite) TestContainerAPIDeleteRemoveVolume(c *testing.T) {
 	assert.Assert(c, os.IsNotExist(err), "expected to get ErrNotExist error, got %v", err)
 }
 
-// Regression test for https://github.com/docker/docker/issues/6231
+// Regression test for https://github.com/zhubiaook/docker/issues/6231
 func (s *DockerAPISuite) TestContainerAPIChunkedEncoding(c *testing.T) {
 	config := map[string]interface{}{
 		"Image":     "busybox",

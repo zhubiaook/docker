@@ -1,4 +1,4 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "github.com/zhubiaook/docker/integration/build"
 
 import (
 	"context"
@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/requirement"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/testutil/daemon"
-	"github.com/docker/docker/testutil/fakecontext"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/integration/internal/requirement"
+	"github.com/zhubiaook/docker/pkg/jsonmessage"
+	"github.com/zhubiaook/docker/testutil/daemon"
+	"github.com/zhubiaook/docker/testutil/fakecontext"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

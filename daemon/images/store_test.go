@@ -12,7 +12,7 @@ import (
 	"github.com/containerd/containerd/leases"
 	"github.com/containerd/containerd/metadata"
 	"github.com/containerd/containerd/namespaces"
-	"github.com/docker/docker/image"
+	"github.com/zhubiaook/docker/image"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"go.etcd.io/bbolt"

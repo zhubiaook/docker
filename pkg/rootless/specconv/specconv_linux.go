@@ -1,4 +1,4 @@
-package specconv // import "github.com/docker/docker/pkg/rootless/specconv"
+package specconv // import "github.com/zhubiaook/docker/pkg/rootless/specconv"
 
 import (
 	"fmt"

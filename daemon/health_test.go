@@ -1,14 +1,14 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	eventtypes "github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/events"
+	"github.com/zhubiaook/docker/api/types"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	eventtypes "github.com/zhubiaook/docker/api/types/events"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/daemon/events"
 )
 
 func reset(c *container.Container) {

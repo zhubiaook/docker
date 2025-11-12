@@ -1,10 +1,10 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/api/types/registry"
+	"github.com/zhubiaook/docker/api/types/registry"
 )
 
 // PluginPush pushes a plugin to a registry

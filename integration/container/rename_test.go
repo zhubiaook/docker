@@ -1,16 +1,16 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/zhubiaook/docker/integration/container"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/api/types"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/integration/internal/container"
+	"github.com/zhubiaook/docker/pkg/stringid"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

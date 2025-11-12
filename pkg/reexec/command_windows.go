@@ -1,4 +1,4 @@
-package reexec // import "github.com/docker/docker/pkg/reexec"
+package reexec // import "github.com/zhubiaook/docker/pkg/reexec"
 
 import (
 	"os/exec"

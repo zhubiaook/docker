@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"io"
 	"os"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/errdefs"
 )
 
 // ContainerCopy performs a deprecated operation of archiving the resource at

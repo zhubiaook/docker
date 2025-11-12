@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/iptables"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
-	"github.com/docker/docker/libnetwork/testutils"
+	"github.com/zhubiaook/docker/libnetwork/iptables"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/options"
+	"github.com/zhubiaook/docker/libnetwork/testutils"
 	"gotest.tools/v3/assert"
 )
 

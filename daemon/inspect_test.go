@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/config"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/daemon/config"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/testutil/request"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/client"
+	"github.com/zhubiaook/docker/pkg/stdcopy"
+	"github.com/zhubiaook/docker/testutil/request"
 	"gotest.tools/v3/assert"
 )
 

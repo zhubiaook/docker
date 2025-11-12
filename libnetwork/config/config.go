@@ -6,12 +6,12 @@ package config
 import (
 	"strings"
 
-	"github.com/docker/docker/libnetwork/cluster"
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/ipamutils"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/osl"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/zhubiaook/docker/libnetwork/cluster"
+	"github.com/zhubiaook/docker/libnetwork/datastore"
+	"github.com/zhubiaook/docker/libnetwork/ipamutils"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/osl"
+	"github.com/zhubiaook/docker/pkg/plugingetter"
 	"github.com/docker/libkv/store"
 	"github.com/sirupsen/logrus"
 )

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/ipamutils"
-	"github.com/docker/docker/libnetwork/testutils"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/ipamutils"
+	"github.com/zhubiaook/docker/libnetwork/testutils"
+	"github.com/zhubiaook/docker/libnetwork/types"
 	"github.com/vishvananda/netlink"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

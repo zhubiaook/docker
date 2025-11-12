@@ -1,7 +1,7 @@
 // FIXME(thaJeztah): remove once we are a module; the go:build directive prevents go from downgrading language version to go1.16:
 //go:build go1.19
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -9,14 +9,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/api/types/versions/v1p20"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/network"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/backend"
+	networktypes "github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/api/types/versions/v1p20"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/daemon/network"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/docker/go-connections/nat"
 )
 

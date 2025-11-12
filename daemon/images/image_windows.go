@@ -3,9 +3,9 @@ package images
 import (
 	"context"
 
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/system"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
+	"github.com/zhubiaook/docker/pkg/system"
 	"github.com/pkg/errors"
 )
 

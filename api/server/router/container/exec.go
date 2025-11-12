@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/api/server/router/container"
+package container // import "github.com/zhubiaook/docker/api/server/router/container"
 
 import (
 	"context"
@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/zhubiaook/docker/api/server/httputils"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/stdcopy"
 	"github.com/sirupsen/logrus"
 )
 

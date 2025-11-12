@@ -11,8 +11,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/docker/libnetwork/iptables"
-	"github.com/docker/docker/libnetwork/ns"
+	"github.com/zhubiaook/docker/libnetwork/iptables"
+	"github.com/zhubiaook/docker/libnetwork/ns"
 	"github.com/ishidawataru/sctp"
 	"github.com/moby/ipvs"
 	"github.com/sirupsen/logrus"

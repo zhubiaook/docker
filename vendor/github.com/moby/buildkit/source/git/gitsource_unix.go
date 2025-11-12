@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/zhubiaook/docker/pkg/reexec"
 	"golang.org/x/sys/unix"
 )
 

@@ -1,4 +1,4 @@
-package tarexport // import "github.com/docker/docker/image/tarexport"
+package tarexport // import "github.com/zhubiaook/docker/image/tarexport"
 
 import (
 	"encoding/json"
@@ -11,11 +11,11 @@ import (
 
 	"github.com/docker/distribution"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/image"
-	v1 "github.com/docker/docker/image/v1"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/system"
+	"github.com/zhubiaook/docker/image"
+	v1 "github.com/zhubiaook/docker/image/v1"
+	"github.com/zhubiaook/docker/layer"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/system"
 	"github.com/moby/sys/sequential"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"

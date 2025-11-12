@@ -6,7 +6,7 @@ import (
 
 	"github.com/containerd/containerd/content"
 	"github.com/containerd/containerd/images"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/zhubiaook/docker/pkg/ioutils"
 	"github.com/moby/buildkit/util/iohelper"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 )

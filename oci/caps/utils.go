@@ -1,10 +1,10 @@
-package caps // import "github.com/docker/docker/oci/caps"
+package caps // import "github.com/zhubiaook/docker/oci/caps"
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/errdefs"
 )
 
 var (

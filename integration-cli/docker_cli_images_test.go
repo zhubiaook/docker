@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/integration-cli/cli/build"
+	"github.com/zhubiaook/docker/pkg/stringid"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/icmd"

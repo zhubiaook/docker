@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package fuseoverlayfs // import "github.com/docker/docker/daemon/graphdriver/fuse-overlayfs"
+package fuseoverlayfs // import "github.com/zhubiaook/docker/daemon/graphdriver/fuse-overlayfs"
 
 import (
 	"bytes"
@@ -15,14 +15,14 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/overlayutils"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/zhubiaook/docker/daemon/graphdriver"
+	"github.com/zhubiaook/docker/daemon/graphdriver/overlayutils"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/chrootarchive"
+	"github.com/zhubiaook/docker/pkg/containerfs"
+	"github.com/zhubiaook/docker/pkg/directory"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/parsers/kernel"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"

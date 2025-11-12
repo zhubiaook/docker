@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
-	imagetype "github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
+	"github.com/zhubiaook/docker/api/types/container"
+	imagetype "github.com/zhubiaook/docker/api/types/image"
+	"github.com/zhubiaook/docker/builder"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/image"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

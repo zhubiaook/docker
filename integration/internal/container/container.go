@@ -5,10 +5,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/client"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/client"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/v3/assert"
 )

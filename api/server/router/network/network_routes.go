@@ -1,4 +1,4 @@
-package network // import "github.com/docker/docker/api/server/router/network"
+package network // import "github.com/zhubiaook/docker/api/server/router/network"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libnetwork"
-	netconst "github.com/docker/docker/libnetwork/datastore"
+	"github.com/zhubiaook/docker/api/server/httputils"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/libnetwork"
+	netconst "github.com/zhubiaook/docker/libnetwork/datastore"
 	"github.com/pkg/errors"
 )
 

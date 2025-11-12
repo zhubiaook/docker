@@ -1,15 +1,15 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
-	"github.com/docker/docker/restartmanager"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/errdefs"
+	libcontainerdtypes "github.com/zhubiaook/docker/libcontainerd/types"
+	"github.com/zhubiaook/docker/restartmanager"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

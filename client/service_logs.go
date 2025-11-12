@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	timetypes "github.com/docker/docker/api/types/time"
+	"github.com/zhubiaook/docker/api/types"
+	timetypes "github.com/zhubiaook/docker/api/types/time"
 	"github.com/pkg/errors"
 )
 

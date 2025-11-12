@@ -6,10 +6,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/testutil/fakecontext"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/client"
+	"github.com/zhubiaook/docker/pkg/jsonmessage"
+	"github.com/zhubiaook/docker/testutil/fakecontext"
 	"gotest.tools/v3/assert"
 )
 

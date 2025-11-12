@@ -1,7 +1,7 @@
 package process
 
 import (
-	procpkg "github.com/docker/docker/pkg/process"
+	procpkg "github.com/zhubiaook/docker/pkg/process"
 	"gotest.tools/v3/poll"
 )
 

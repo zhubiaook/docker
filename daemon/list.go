@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	imagetypes "github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	imagetypes "github.com/zhubiaook/docker/api/types/image"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/image"
 	"github.com/docker/go-connections/nat"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

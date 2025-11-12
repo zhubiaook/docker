@@ -12,16 +12,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/libnetwork/config"
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
-	"github.com/docker/docker/libnetwork/testutils"
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/zhubiaook/docker/libnetwork"
+	"github.com/zhubiaook/docker/libnetwork/config"
+	"github.com/zhubiaook/docker/libnetwork/datastore"
+	"github.com/zhubiaook/docker/libnetwork/driverapi"
+	"github.com/zhubiaook/docker/libnetwork/ipamapi"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/options"
+	"github.com/zhubiaook/docker/libnetwork/testutils"
+	"github.com/zhubiaook/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/pkg/plugins"
 )
 
 func TestMain(m *testing.M) {

@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/moby/sys/signal"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

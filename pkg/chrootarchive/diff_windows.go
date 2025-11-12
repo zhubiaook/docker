@@ -1,12 +1,12 @@
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/zhubiaook/docker/pkg/chrootarchive"
 
 import (
 	"fmt"
 	"io"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/longpath"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/longpath"
 )
 
 // applyLayerHandler parses a diff in the standard layer format from `layer`, and

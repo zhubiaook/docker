@@ -1,4 +1,4 @@
-package cache // import "github.com/docker/docker/image/cache"
+package cache // import "github.com/zhubiaook/docker/image/cache"
 
 import (
 	"encoding/json"
@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/platforms"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/dockerversion"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

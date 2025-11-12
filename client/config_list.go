@@ -1,13 +1,13 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/swarm"
 )
 
 // ConfigList returns the list of configs.

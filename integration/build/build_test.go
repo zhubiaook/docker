@@ -1,4 +1,4 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "github.com/zhubiaook/docker/integration/build"
 
 import (
 	"archive/tar"
@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/testutil/fakecontext"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/jsonmessage"
+	"github.com/zhubiaook/docker/testutil/fakecontext"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

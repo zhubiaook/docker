@@ -3,7 +3,7 @@ package cluster
 import (
 	"context"
 
-	"github.com/docker/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types/network"
 )
 
 const (

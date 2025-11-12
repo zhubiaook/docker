@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 
 	"github.com/containerd/containerd/containers"
 	coci "github.com/containerd/containerd/oci"
-	"github.com/docker/docker/container"
-	dconfig "github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/profiles/seccomp"
+	"github.com/zhubiaook/docker/container"
+	dconfig "github.com/zhubiaook/docker/daemon/config"
+	"github.com/zhubiaook/docker/profiles/seccomp"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 )

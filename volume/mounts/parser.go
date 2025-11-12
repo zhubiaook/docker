@@ -1,10 +1,10 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "github.com/zhubiaook/docker/volume/mounts"
 
 import (
 	"errors"
 	"runtime"
 
-	"github.com/docker/docker/api/types/mount"
+	"github.com/zhubiaook/docker/api/types/mount"
 )
 
 // ErrVolumeTargetIsRoot is returned when the target destination is root.

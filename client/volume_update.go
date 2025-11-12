@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"context"
 	"net/url"
 
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/volume"
+	"github.com/zhubiaook/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/api/types/volume"
 )
 
 // VolumeUpdate updates a volume. This only works for Cluster Volumes, and

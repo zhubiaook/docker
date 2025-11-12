@@ -1,12 +1,12 @@
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "github.com/zhubiaook/docker/daemon/cluster/executor/container"
 
 import (
 	"os"
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/daemon"
+	"github.com/zhubiaook/docker/pkg/stringid"
 	"github.com/moby/swarmkit/v2/api"
 )
 

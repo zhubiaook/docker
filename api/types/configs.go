@@ -1,8 +1,8 @@
-package types // import "github.com/docker/docker/api/types"
+package types // import "github.com/zhubiaook/docker/api/types"
 
 import (
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/network"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

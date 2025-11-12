@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/zhubiaook/docker/builder/dockerfile"
 
 import (
 	"context"
@@ -6,13 +6,13 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/backend"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/builder"
+	containerpkg "github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )

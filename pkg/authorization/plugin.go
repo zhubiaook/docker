@@ -1,10 +1,10 @@
-package authorization // import "github.com/docker/docker/pkg/authorization"
+package authorization // import "github.com/zhubiaook/docker/pkg/authorization"
 
 import (
 	"sync"
 
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/zhubiaook/docker/pkg/plugingetter"
+	"github.com/zhubiaook/docker/pkg/plugins"
 )
 
 // Plugin allows third party plugins to authorize requests and responses

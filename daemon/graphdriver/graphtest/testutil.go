@@ -1,4 +1,4 @@
-package graphtest // import "github.com/docker/docker/daemon/graphdriver/graphtest"
+package graphtest // import "github.com/zhubiaook/docker/daemon/graphdriver/graphtest"
 
 import (
 	"bytes"
@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/daemon/graphdriver"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/stringid"
 )
 
 func randomContent(size int, seed int64) []byte {

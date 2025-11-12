@@ -1,9 +1,9 @@
 //go:build windows
 // +build windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
-import "github.com/docker/docker/pkg/plugingetter"
+import "github.com/zhubiaook/docker/pkg/plugingetter"
 
 func registerMetricsPluginCallback(getter plugingetter.PluginGetter, sockPath string) {
 }

@@ -1,6 +1,6 @@
-package register // import "github.com/docker/docker/daemon/graphdriver/register"
+package register // import "github.com/zhubiaook/docker/daemon/graphdriver/register"
 
 import (
 	// register the windows graph drivers
-	_ "github.com/docker/docker/daemon/graphdriver/windows"
+	_ "github.com/zhubiaook/docker/daemon/graphdriver/windows"
 )

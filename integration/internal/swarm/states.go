@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	swarmtypes "github.com/zhubiaook/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/client"
 	"gotest.tools/v3/poll"
 )
 

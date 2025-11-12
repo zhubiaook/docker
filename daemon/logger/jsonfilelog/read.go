@@ -1,15 +1,15 @@
-package jsonfilelog // import "github.com/docker/docker/daemon/logger/jsonfilelog"
+package jsonfilelog // import "github.com/zhubiaook/docker/daemon/logger/jsonfilelog"
 
 import (
 	"context"
 	"encoding/json"
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/jsonfilelog/jsonlog"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/pkg/tailfile"
+	"github.com/zhubiaook/docker/api/types/backend"
+	"github.com/zhubiaook/docker/daemon/logger"
+	"github.com/zhubiaook/docker/daemon/logger/jsonfilelog/jsonlog"
+	"github.com/zhubiaook/docker/daemon/logger/loggerutils"
+	"github.com/zhubiaook/docker/pkg/tailfile"
 )
 
 // ReadLogs implements the logger's LogReader interface for the logs

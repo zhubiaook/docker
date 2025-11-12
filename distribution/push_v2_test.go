@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/zhubiaook/docker/distribution"
 
 import (
 	"context"
@@ -11,12 +11,12 @@ import (
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/progress"
-	refstore "github.com/docker/docker/reference"
-	registrypkg "github.com/docker/docker/registry"
+	"github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/distribution/metadata"
+	"github.com/zhubiaook/docker/layer"
+	"github.com/zhubiaook/docker/pkg/progress"
+	refstore "github.com/zhubiaook/docker/reference"
+	registrypkg "github.com/zhubiaook/docker/registry"
 	"github.com/opencontainers/go-digest"
 )
 

@@ -1,11 +1,11 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/zhubiaook/docker/image"
 
 import (
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/layer"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/layer"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

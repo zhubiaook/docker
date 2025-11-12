@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package local // import "github.com/docker/docker/volume/local"
+package local // import "github.com/zhubiaook/docker/volume/local"
 
 import (
 	"os"
@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/quota"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/quota"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

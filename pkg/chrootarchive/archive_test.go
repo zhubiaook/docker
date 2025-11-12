@@ -1,4 +1,4 @@
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/zhubiaook/docker/pkg/chrootarchive"
 
 import (
 	"bytes"
@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	"gotest.tools/v3/skip"
 )
 

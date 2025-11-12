@@ -1,7 +1,7 @@
 // FIXME(thaJeztah): remove once we are a module; the go:build directive prevents go from downgrading language version to go1.16:
 //go:build go1.19
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"fmt"
@@ -10,19 +10,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/cli/debug"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/pkg/fileutils"
-	"github.com/docker/docker/pkg/meminfo"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/parsers/operatingsystem"
-	"github.com/docker/docker/pkg/platform"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/registry"
+	"github.com/zhubiaook/docker/api"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/cli/debug"
+	"github.com/zhubiaook/docker/daemon/config"
+	"github.com/zhubiaook/docker/daemon/logger"
+	"github.com/zhubiaook/docker/dockerversion"
+	"github.com/zhubiaook/docker/pkg/fileutils"
+	"github.com/zhubiaook/docker/pkg/meminfo"
+	"github.com/zhubiaook/docker/pkg/parsers/kernel"
+	"github.com/zhubiaook/docker/pkg/parsers/operatingsystem"
+	"github.com/zhubiaook/docker/pkg/platform"
+	"github.com/zhubiaook/docker/pkg/sysinfo"
+	"github.com/zhubiaook/docker/registry"
 	metrics "github.com/docker/go-metrics"
 	"github.com/opencontainers/selinux/go-selinux"
 	"github.com/sirupsen/logrus"

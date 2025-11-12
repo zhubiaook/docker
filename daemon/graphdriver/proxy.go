@@ -1,14 +1,14 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/zhubiaook/docker/daemon/graphdriver"
 
 import (
 	"errors"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/plugingetter"
+	"github.com/zhubiaook/docker/pkg/plugins"
 )
 
 type graphDriverProxy struct {

@@ -1,11 +1,11 @@
-package graphdriver // import "github.com/docker/docker/integration/plugin/graphdriver"
+package graphdriver // import "github.com/zhubiaook/docker/integration/plugin/graphdriver"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/zhubiaook/docker/testutil/environment"
 )
 
 var (

@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/zhubiaook/docker/registry"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/errdefs"
 
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/pkg/errors"

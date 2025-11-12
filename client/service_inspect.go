@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"bytes"
@@ -8,8 +8,8 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/swarm"
 )
 
 // ServiceInspectWithRaw returns the service information and the raw data.

@@ -1,6 +1,6 @@
-package register // import "github.com/docker/docker/daemon/graphdriver/register"
+package register // import "github.com/zhubiaook/docker/daemon/graphdriver/register"
 
 import (
 	// register vfs
-	_ "github.com/docker/docker/daemon/graphdriver/vfs"
+	_ "github.com/zhubiaook/docker/daemon/graphdriver/vfs"
 )

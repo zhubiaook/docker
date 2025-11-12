@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/zhubiaook/docker/daemon/images"
 
 import (
 	"context"
@@ -8,14 +8,14 @@ import (
 
 	"github.com/containerd/containerd/platforms"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder/dockerfile"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/system"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/builder/dockerfile"
+	"github.com/zhubiaook/docker/dockerversion"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/system"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

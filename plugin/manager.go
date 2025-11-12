@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/zhubiaook/docker/plugin"
 
 import (
 	"context"
@@ -15,12 +15,12 @@ import (
 
 	"github.com/containerd/containerd/content"
 	"github.com/containerd/containerd/content/local"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/ioutils"
-	v2 "github.com/docker/docker/plugin/v2"
-	"github.com/docker/docker/registry"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/pkg/authorization"
+	"github.com/zhubiaook/docker/pkg/containerfs"
+	"github.com/zhubiaook/docker/pkg/ioutils"
+	v2 "github.com/zhubiaook/docker/plugin/v2"
+	"github.com/zhubiaook/docker/registry"
 	"github.com/moby/pubsub"
 	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/runtime-spec/specs-go"

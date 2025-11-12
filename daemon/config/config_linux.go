@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/zhubiaook/docker/daemon/config"
 
 import (
 	"fmt"
@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 
 	"github.com/containerd/cgroups/v3"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/homedir"
-	"github.com/docker/docker/pkg/rootless"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/opts"
+	"github.com/zhubiaook/docker/pkg/homedir"
+	"github.com/zhubiaook/docker/pkg/rootless"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

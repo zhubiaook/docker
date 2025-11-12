@@ -1,11 +1,11 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/zhubiaook/docker/plugin"
 
 import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/pkg/plugins"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/zhubiaook/docker/pkg/plugins"
+	v2 "github.com/zhubiaook/docker/plugin/v2"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

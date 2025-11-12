@@ -1,12 +1,12 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/zhubiaook/docker/daemon/cluster"
 
 import (
 	"context"
 	"fmt"
 
-	volumetypes "github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/daemon/cluster/convert"
-	"github.com/docker/docker/errdefs"
+	volumetypes "github.com/zhubiaook/docker/api/types/volume"
+	"github.com/zhubiaook/docker/daemon/cluster/convert"
+	"github.com/zhubiaook/docker/errdefs"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	"google.golang.org/grpc"
 )

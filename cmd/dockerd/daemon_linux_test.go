@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/zhubiaook/docker/daemon/config"
+	"github.com/zhubiaook/docker/pkg/reexec"
 	"golang.org/x/sys/unix"
 	"gotest.tools/v3/assert"
 )

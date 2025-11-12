@@ -1,8 +1,8 @@
 package network
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/network"
 )
 
 // WithDriver sets the driver of the network

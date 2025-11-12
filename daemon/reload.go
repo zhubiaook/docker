@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"encoding/json"
 	"fmt"
 	"strconv"
 
-	"github.com/docker/docker/daemon/config"
+	"github.com/zhubiaook/docker/daemon/config"
 	"github.com/sirupsen/logrus"
 )
 

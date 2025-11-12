@@ -6,8 +6,8 @@ import (
 
 	"github.com/containerd/containerd/content"
 	"github.com/containerd/containerd/mount"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/pkg/archive"
 	"github.com/google/uuid"
 	"github.com/opencontainers/image-spec/identity"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

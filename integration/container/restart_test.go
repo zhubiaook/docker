@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/zhubiaook/docker/integration/container"
 
 import (
 	"context"
@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/client"
-	testContainer "github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/client"
+	testContainer "github.com/zhubiaook/docker/integration/internal/container"
+	"github.com/zhubiaook/docker/testutil/daemon"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

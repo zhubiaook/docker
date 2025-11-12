@@ -1,8 +1,8 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/dockerversion"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/dockerversion"
 )
 
 func (daemon *Daemon) fillLicense(v *types.Info) {

@@ -1,10 +1,10 @@
-package events // import "github.com/docker/docker/daemon/events"
+package events // import "github.com/zhubiaook/docker/daemon/events"
 
 import (
 	"sync"
 	"time"
 
-	eventtypes "github.com/docker/docker/api/types/events"
+	eventtypes "github.com/zhubiaook/docker/api/types/events"
 	"github.com/moby/pubsub"
 )
 

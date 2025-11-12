@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/daemon/network"
-	"github.com/docker/docker/libnetwork"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/daemon/config"
+	"github.com/zhubiaook/docker/daemon/network"
+	"github.com/zhubiaook/docker/libnetwork"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"

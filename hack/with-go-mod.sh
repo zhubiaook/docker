@@ -23,7 +23,7 @@ else
 	set -x
 
 	tee "${ROOTDIR}/go.mod" >&2 <<- EOF
-		module github.com/docker/docker
+		module github.com/zhubiaook/docker
 
 		go 1.19
 	EOF

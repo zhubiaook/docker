@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types/registry"
+	"github.com/zhubiaook/docker/api/types/registry"
 )
 
 // DistributionInspect returns the image digest with the full manifest.

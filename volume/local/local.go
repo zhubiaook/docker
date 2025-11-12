@@ -1,7 +1,7 @@
 // Package local provides the default implementation for volumes. It
 // is used to mount data volume containers and directories local to
 // the host server.
-package local // import "github.com/docker/docker/volume/local"
+package local // import "github.com/zhubiaook/docker/volume/local"
 
 import (
 	"context"
@@ -13,11 +13,11 @@ import (
 	"sync"
 
 	"github.com/containerd/containerd/log"
-	"github.com/docker/docker/daemon/names"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/quota"
-	"github.com/docker/docker/volume"
+	"github.com/zhubiaook/docker/daemon/names"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/quota"
+	"github.com/zhubiaook/docker/volume"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

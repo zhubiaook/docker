@@ -1,4 +1,4 @@
-package jsonfilelog // import "github.com/docker/docker/daemon/logger/jsonfilelog"
+package jsonfilelog // import "github.com/zhubiaook/docker/daemon/logger/jsonfilelog"
 
 import (
 	"bufio"
@@ -12,8 +12,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggertest"
+	"github.com/zhubiaook/docker/daemon/logger"
+	"github.com/zhubiaook/docker/daemon/logger/loggertest"
 	"gotest.tools/v3/assert"
 )
 

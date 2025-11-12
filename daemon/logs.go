@@ -1,18 +1,18 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	containertypes "github.com/docker/docker/api/types/container"
-	timetypes "github.com/docker/docker/api/types/time"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/logger"
-	logcache "github.com/docker/docker/daemon/logger/loggerutils/cache"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/backend"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	timetypes "github.com/zhubiaook/docker/api/types/time"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/daemon/logger"
+	logcache "github.com/zhubiaook/docker/daemon/logger/loggerutils/cache"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

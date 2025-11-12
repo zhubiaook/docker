@@ -1,9 +1,9 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
 
-	"github.com/docker/docker/container"
+	"github.com/zhubiaook/docker/container"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"bytes"
@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/events"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/errdefs"
 )
 
 func TestEventsErrorInOptions(t *testing.T) {

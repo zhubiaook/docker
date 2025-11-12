@@ -1,4 +1,4 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/zhubiaook/docker/daemon/graphdriver"
 
 import (
 	"fmt"
@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/plugingetter"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/vbatts/tar-split/tar/storage"

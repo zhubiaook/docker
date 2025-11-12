@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/pkg/stdcopy"
+	"github.com/zhubiaook/docker/testutil/daemon"
 	"gotest.tools/v3/assert"
 )
 

@@ -16,7 +16,7 @@ import (
 	"github.com/containerd/containerd/mount"
 	"github.com/containerd/containerd/pkg/userns"
 	"github.com/containerd/containerd/snapshots"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	"github.com/hashicorp/go-multierror"
 	"github.com/moby/buildkit/cache/config"
 	"github.com/moby/buildkit/identity"

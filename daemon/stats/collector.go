@@ -1,11 +1,11 @@
-package stats // import "github.com/docker/docker/daemon/stats"
+package stats // import "github.com/zhubiaook/docker/daemon/stats"
 
 import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/container"
 	"github.com/moby/pubsub"
 )
 

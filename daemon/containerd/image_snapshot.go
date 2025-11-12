@@ -10,7 +10,7 @@ import (
 	"github.com/containerd/containerd/leases"
 	"github.com/containerd/containerd/platforms"
 	"github.com/containerd/containerd/snapshots"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/opencontainers/image-spec/identity"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

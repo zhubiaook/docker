@@ -1,10 +1,10 @@
-package swarm // import "github.com/docker/docker/api/types/swarm"
+package swarm // import "github.com/zhubiaook/docker/api/types/swarm"
 
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/mount"
 	"github.com/docker/go-units"
 )
 

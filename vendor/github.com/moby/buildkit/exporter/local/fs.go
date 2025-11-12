@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	intoto "github.com/in-toto/in-toto-golang/in_toto"
 	"github.com/moby/buildkit/cache"
 	"github.com/moby/buildkit/exporter"

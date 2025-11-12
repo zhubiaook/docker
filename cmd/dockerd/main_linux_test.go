@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/zhubiaook/docker/pkg/reexec"
 )
 
 func TestMain(m *testing.M) {

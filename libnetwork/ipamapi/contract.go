@@ -4,8 +4,8 @@ package ipamapi
 import (
 	"net"
 
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/zhubiaook/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/pkg/plugingetter"
 )
 
 // IPAM plugin types

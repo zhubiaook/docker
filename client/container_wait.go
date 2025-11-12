@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"bytes"
@@ -8,8 +8,8 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/versions"
 )
 
 const containerWaitErrorMsgLimit = 2 * 1024 /* Max: 2KiB */

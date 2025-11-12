@@ -1,4 +1,4 @@
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/zhubiaook/docker/daemon/logger"
 
 import (
 	"encoding/binary"
@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types/plugins/logdriver"
+	"github.com/zhubiaook/docker/api/types/plugins/logdriver"
 	protoio "github.com/gogo/protobuf/io"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

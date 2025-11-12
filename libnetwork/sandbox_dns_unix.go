@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/libnetwork/etchosts"
-	"github.com/docker/docker/libnetwork/resolvconf"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/etchosts"
+	"github.com/zhubiaook/docker/libnetwork/resolvconf"
+	"github.com/zhubiaook/docker/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

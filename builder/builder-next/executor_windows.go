@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/daemon/config"
+	"github.com/zhubiaook/docker/libnetwork"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	"github.com/moby/buildkit/executor"
 	"github.com/moby/buildkit/executor/oci"
 )

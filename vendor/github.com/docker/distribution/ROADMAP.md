@@ -14,7 +14,7 @@ considerations made in respect of the future of the project.
 
 ## Distribution Goals
 
-- Replace the existing [docker registry](github.com/docker/docker-registry)
+- Replace the existing [docker registry](github.com/zhubiaook/docker-registry)
   implementation as the primary implementation.
 - Replace the existing push and pull code in the docker engine with the
   distribution package.

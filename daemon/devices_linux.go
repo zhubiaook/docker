@@ -1,8 +1,8 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/pkg/capabilities"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/pkg/capabilities"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

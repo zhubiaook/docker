@@ -1,11 +1,11 @@
-package network // import "github.com/docker/docker/daemon/network"
+package network // import "github.com/zhubiaook/docker/daemon/network"
 
 import (
 	"net"
 	"sync"
 
-	networktypes "github.com/docker/docker/api/types/network"
-	clustertypes "github.com/docker/docker/daemon/cluster/provider"
+	networktypes "github.com/zhubiaook/docker/api/types/network"
+	clustertypes "github.com/zhubiaook/docker/daemon/cluster/provider"
 	"github.com/docker/go-connections/nat"
 	"github.com/pkg/errors"
 )

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/zhubiaook/docker/pkg/plugingetter"
 
 	"github.com/moby/swarmkit/v2/api"
 )

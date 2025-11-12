@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/zhubiaook/docker/builder/dockerfile"
 
 import (
 	"bytes"
@@ -8,13 +8,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/oci"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/backend"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/strslice"
+	"github.com/zhubiaook/docker/builder"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/oci"
 	"github.com/docker/go-connections/nat"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"github.com/moby/buildkit/frontend/dockerfile/parser"

@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/zhubiaook/docker/pkg/chrootarchive"
 
 import (
 	"io"
@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/archive"
 	"github.com/pkg/errors"
 )
 

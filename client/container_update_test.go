@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"bytes"
@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/errdefs"
 )
 
 func TestContainerUpdateError(t *testing.T) {

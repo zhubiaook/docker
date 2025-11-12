@@ -1,4 +1,4 @@
-package build // import "github.com/docker/docker/api/server/backend/build"
+package build // import "github.com/zhubiaook/docker/api/server/backend/build"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"io"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/image"
+	"github.com/zhubiaook/docker/image"
 	"github.com/pkg/errors"
 )
 

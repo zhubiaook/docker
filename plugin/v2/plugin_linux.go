@@ -1,4 +1,4 @@
-package v2 // import "github.com/docker/docker/plugin/v2"
+package v2 // import "github.com/zhubiaook/docker/plugin/v2"
 
 import (
 	"os"
@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/oci"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/oci"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 )

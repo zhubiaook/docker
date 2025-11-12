@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -10,13 +10,13 @@ import (
 	"time"
 
 	"github.com/containerd/containerd"
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/pools"
+	"github.com/zhubiaook/docker/api/types"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/strslice"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/container/stream"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/pools"
 	"github.com/moby/sys/signal"
 	"github.com/moby/term"
 	specs "github.com/opencontainers/runtime-spec/specs-go"

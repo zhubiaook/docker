@@ -1,4 +1,4 @@
-package secret // import "github.com/docker/docker/integration/secret"
+package secret // import "github.com/zhubiaook/docker/integration/secret"
 
 import (
 	"bytes"
@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/integration/internal/swarm"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	swarmtypes "github.com/zhubiaook/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/client"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/integration/internal/swarm"
+	"github.com/zhubiaook/docker/pkg/stdcopy"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

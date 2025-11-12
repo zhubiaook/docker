@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/backend"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder/dockerfile"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types/backend"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/builder/dockerfile"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/pkg/errors"
 )
 

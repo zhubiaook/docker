@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -9,12 +9,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/ioutils"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/ioutils"
+	volumemounts "github.com/zhubiaook/docker/volume/mounts"
 	"github.com/pkg/errors"
 )
 

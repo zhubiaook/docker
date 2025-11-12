@@ -28,7 +28,7 @@ func main() {
 
 ## Contributing
 
-Want to hack on ipvs? [Docker's contributions guidelines](https://github.com/docker/docker/blob/master/CONTRIBUTING.md) apply.
+Want to hack on ipvs? [Docker's contributions guidelines](https://github.com/zhubiaook/docker/blob/master/CONTRIBUTING.md) apply.
 
 ## Copyright and license
 

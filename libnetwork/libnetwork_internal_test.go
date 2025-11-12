@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/discoverapi"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/netutils"
-	"github.com/docker/docker/libnetwork/testutils"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/datastore"
+	"github.com/zhubiaook/docker/libnetwork/discoverapi"
+	"github.com/zhubiaook/docker/libnetwork/driverapi"
+	"github.com/zhubiaook/docker/libnetwork/ipamapi"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/netutils"
+	"github.com/zhubiaook/docker/libnetwork/testutils"
+	"github.com/zhubiaook/docker/libnetwork/types"
 	"gotest.tools/v3/skip"
 )
 

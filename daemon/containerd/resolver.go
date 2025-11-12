@@ -9,10 +9,10 @@ import (
 	"github.com/containerd/containerd/remotes"
 	"github.com/containerd/containerd/remotes/docker"
 	"github.com/containerd/containerd/version"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/pkg/useragent"
-	"github.com/docker/docker/registry"
+	registrytypes "github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/dockerversion"
+	"github.com/zhubiaook/docker/pkg/useragent"
+	"github.com/zhubiaook/docker/registry"
 	"github.com/sirupsen/logrus"
 )
 

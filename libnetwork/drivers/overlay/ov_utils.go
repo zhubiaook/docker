@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/docker/docker/libnetwork/drivers/overlay/overlayutils"
-	"github.com/docker/docker/libnetwork/netutils"
-	"github.com/docker/docker/libnetwork/ns"
+	"github.com/zhubiaook/docker/libnetwork/drivers/overlay/overlayutils"
+	"github.com/zhubiaook/docker/libnetwork/netutils"
+	"github.com/zhubiaook/docker/libnetwork/ns"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netns"

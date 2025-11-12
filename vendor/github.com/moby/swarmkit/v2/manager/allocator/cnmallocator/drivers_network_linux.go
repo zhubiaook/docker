@@ -1,12 +1,12 @@
 package cnmallocator
 
 import (
-	"github.com/docker/docker/libnetwork/drivers/bridge/brmanager"
-	"github.com/docker/docker/libnetwork/drivers/host"
-	"github.com/docker/docker/libnetwork/drivers/ipvlan/ivmanager"
-	"github.com/docker/docker/libnetwork/drivers/macvlan/mvmanager"
-	"github.com/docker/docker/libnetwork/drivers/overlay/ovmanager"
-	"github.com/docker/docker/libnetwork/drivers/remote"
+	"github.com/zhubiaook/docker/libnetwork/drivers/bridge/brmanager"
+	"github.com/zhubiaook/docker/libnetwork/drivers/host"
+	"github.com/zhubiaook/docker/libnetwork/drivers/ipvlan/ivmanager"
+	"github.com/zhubiaook/docker/libnetwork/drivers/macvlan/mvmanager"
+	"github.com/zhubiaook/docker/libnetwork/drivers/overlay/ovmanager"
+	"github.com/zhubiaook/docker/libnetwork/drivers/remote"
 	"github.com/moby/swarmkit/v2/manager/allocator/networkallocator"
 )
 

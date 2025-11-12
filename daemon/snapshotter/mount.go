@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 
 	"github.com/containerd/containerd/mount"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/daemon/graphdriver"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	"github.com/moby/locker"
 	"github.com/sirupsen/logrus"
 )

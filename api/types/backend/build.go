@@ -1,11 +1,11 @@
-package backend // import "github.com/docker/docker/api/types/backend"
+package backend // import "github.com/zhubiaook/docker/api/types/backend"
 
 import (
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/pkg/streamformatter"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

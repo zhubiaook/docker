@@ -1,4 +1,4 @@
-package stack // import "github.com/docker/docker/pkg/stack"
+package stack // import "github.com/zhubiaook/docker/pkg/stack"
 
 import (
 	"os"

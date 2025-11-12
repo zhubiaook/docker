@@ -1,4 +1,4 @@
-package types // import "github.com/docker/docker/api/types"
+package types // import "github.com/zhubiaook/docker/api/types"
 
 import (
 	"errors"
@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/volume"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/mount"
+	"github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/api/types/volume"
 	"github.com/docker/go-connections/nat"
 )
 
@@ -522,7 +522,7 @@ type DefaultNetworkSettings struct {
 // This is used for reporting the mountpoints in use by a container.
 type MountPoint struct {
 	// Type is the type of mount, see `Type<foo>` definitions in
-	// github.com/docker/docker/api/types/mount.Type
+	// github.com/zhubiaook/docker/api/types/mount.Type
 	Type mount.Type `json:",omitempty"`
 
 	// Name is the name reference to the underlying data defined by `Source`

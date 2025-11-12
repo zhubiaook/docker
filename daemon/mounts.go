@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/log"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/container"
-	volumesservice "github.com/docker/docker/volume/service"
+	mounttypes "github.com/zhubiaook/docker/api/types/mount"
+	"github.com/zhubiaook/docker/container"
+	volumesservice "github.com/zhubiaook/docker/volume/service"
 	"github.com/sirupsen/logrus"
 )
 

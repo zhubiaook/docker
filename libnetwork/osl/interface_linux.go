@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/ns"
+	"github.com/zhubiaook/docker/libnetwork/types"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netns"

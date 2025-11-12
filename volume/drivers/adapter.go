@@ -1,11 +1,11 @@
-package drivers // import "github.com/docker/docker/volume/drivers"
+package drivers // import "github.com/zhubiaook/docker/volume/drivers"
 
 import (
 	"errors"
 	"strings"
 	"time"
 
-	"github.com/docker/docker/volume"
+	"github.com/zhubiaook/docker/volume"
 	"github.com/sirupsen/logrus"
 )
 

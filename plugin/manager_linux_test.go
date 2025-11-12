@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/zhubiaook/docker/plugin"
 
 import (
 	"io"
@@ -8,10 +8,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/stringid"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/pkg/containerfs"
+	"github.com/zhubiaook/docker/pkg/stringid"
+	v2 "github.com/zhubiaook/docker/plugin/v2"
 	"github.com/moby/sys/mount"
 	"github.com/moby/sys/mountinfo"
 	specs "github.com/opencontainers/runtime-spec/specs-go"

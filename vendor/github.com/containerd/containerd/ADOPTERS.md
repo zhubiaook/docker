@@ -4,7 +4,7 @@ A non-exhaustive list of containerd adopters is provided below.
 
 **_Docker/Moby engine_** - Containerd began life prior to its CNCF adoption as a lower-layer
 runtime manager for `runc` processes below the Docker engine. Continuing today, containerd
-has extremely broad production usage as a component of the [Docker engine](https://github.com/docker/docker-ce)
+has extremely broad production usage as a component of the [Docker engine](https://github.com/zhubiaook/docker-ce)
 stack. Note that this includes any use of the open source [Moby engine project](https://github.com/moby/moby);
 including the Balena project listed below.
 

@@ -1,9 +1,9 @@
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/zhubiaook/docker/pkg/chrootarchive"
 
 import (
 	"io"
 
-	"github.com/docker/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/archive"
 )
 
 // ApplyLayer parses a diff in the standard layer format from `layer`,

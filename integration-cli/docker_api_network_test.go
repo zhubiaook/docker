@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/testutil/request"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types/versions"
+	"github.com/zhubiaook/docker/testutil/request"
 	"gotest.tools/v3/assert"
 )
 

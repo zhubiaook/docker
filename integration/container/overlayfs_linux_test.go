@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/dmesg"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/integration/internal/container"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/dmesg"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/daemon/logger"
+	"github.com/zhubiaook/docker/daemon/logger"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 )

@@ -1,7 +1,7 @@
 // FIXME(thaJeztah): remove once we are a module; the go:build directive prevents go from downgrading language version to go1.16:
 //go:build go1.19
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"errors"
@@ -12,19 +12,19 @@ import (
 	"strings"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/network"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libnetwork"
-	netconst "github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/runconfig"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	networktypes "github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/daemon/network"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/libnetwork"
+	netconst "github.com/zhubiaook/docker/libnetwork/datastore"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/options"
+	"github.com/zhubiaook/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/opts"
+	"github.com/zhubiaook/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/runconfig"
 	"github.com/docker/go-connections/nat"
 	"github.com/sirupsen/logrus"
 )

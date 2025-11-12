@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	"github.com/moby/buildkit/snapshot"
 	"github.com/moby/buildkit/solver/llbsolver/ops/fileoptypes"
 	"github.com/moby/buildkit/solver/pb"

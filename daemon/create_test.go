@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/errdefs"
 	"gotest.tools/v3/assert"
 )
 

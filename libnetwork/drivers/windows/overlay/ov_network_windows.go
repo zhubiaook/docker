@@ -9,10 +9,10 @@ import (
 	"sync"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/portmapper"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/driverapi"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/portmapper"
+	"github.com/zhubiaook/docker/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

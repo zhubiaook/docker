@@ -6,10 +6,10 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/docker/docker/libnetwork/bitmap"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/ipbits"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/bitmap"
+	"github.com/zhubiaook/docker/libnetwork/ipamapi"
+	"github.com/zhubiaook/docker/libnetwork/ipbits"
+	"github.com/zhubiaook/docker/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

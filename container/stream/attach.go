@@ -1,10 +1,10 @@
-package stream // import "github.com/docker/docker/container/stream"
+package stream // import "github.com/zhubiaook/docker/container/stream"
 
 import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/pkg/pools"
+	"github.com/zhubiaook/docker/pkg/pools"
 	"github.com/moby/term"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

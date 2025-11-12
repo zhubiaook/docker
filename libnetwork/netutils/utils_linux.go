@@ -9,9 +9,9 @@ import (
 	"net"
 	"os"
 
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/resolvconf"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/ns"
+	"github.com/zhubiaook/docker/libnetwork/resolvconf"
+	"github.com/zhubiaook/docker/libnetwork/types"
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 )

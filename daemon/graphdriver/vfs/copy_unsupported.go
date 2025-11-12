@@ -1,11 +1,11 @@
 //go:build !linux
 // +build !linux
 
-package vfs // import "github.com/docker/docker/daemon/graphdriver/vfs"
+package vfs // import "github.com/zhubiaook/docker/daemon/graphdriver/vfs"
 
 import (
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/chrootarchive"
+	"github.com/zhubiaook/docker/pkg/idtools"
 )
 
 func dirCopy(srcDir, dstDir string) error {

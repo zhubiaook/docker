@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/zhubiaook/docker/builder/dockerfile"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

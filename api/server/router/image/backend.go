@@ -1,15 +1,15 @@
-package image // import "github.com/docker/docker/api/server/router/image"
+package image // import "github.com/zhubiaook/docker/api/server/router/image"
 
 import (
 	"context"
 	"io"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/api/types/registry"
-	dockerimage "github.com/docker/docker/image"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/image"
+	"github.com/zhubiaook/docker/api/types/registry"
+	dockerimage "github.com/zhubiaook/docker/image"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

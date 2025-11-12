@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/testutil/fixtures/plugin"
+package plugin // import "github.com/zhubiaook/docker/testutil/fixtures/plugin"
 
 import (
 	"context"
@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/plugin"
-	registrypkg "github.com/docker/docker/registry"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/plugin"
+	registrypkg "github.com/zhubiaook/docker/registry"
 	"github.com/pkg/errors"
 )
 

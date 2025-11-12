@@ -1,4 +1,4 @@
-package tailfile // import "github.com/docker/docker/pkg/tailfile"
+package tailfile // import "github.com/zhubiaook/docker/pkg/tailfile"
 
 import (
 	"bufio"

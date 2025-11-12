@@ -1,10 +1,10 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/zhubiaook/docker/daemon/images"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types/events"
-	imagetypes "github.com/docker/docker/api/types/image"
+	"github.com/zhubiaook/docker/api/types/events"
+	imagetypes "github.com/zhubiaook/docker/api/types/image"
 )
 
 // LogImageEvent generates an event related to an image with only the default attributes.

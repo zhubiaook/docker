@@ -1,4 +1,4 @@
-package testutils // import "github.com/docker/docker/volume/testutils"
+package testutils // import "github.com/zhubiaook/docker/volume/testutils"
 
 import (
 	"encoding/json"
@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/volume"
+	"github.com/zhubiaook/docker/pkg/plugingetter"
+	"github.com/zhubiaook/docker/pkg/plugins"
+	"github.com/zhubiaook/docker/volume"
 )
 
 // NoopVolume is a volume that doesn't perform any operation

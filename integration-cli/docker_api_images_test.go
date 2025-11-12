@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/testutil/request"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/client"
+	"github.com/zhubiaook/docker/integration-cli/cli"
+	"github.com/zhubiaook/docker/integration-cli/cli/build"
+	"github.com/zhubiaook/docker/testutil/request"
 	"gotest.tools/v3/assert"
 )
 

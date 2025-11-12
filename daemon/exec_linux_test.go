@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/containerd/containerd/pkg/apparmor"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/config"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/daemon/config"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"gotest.tools/v3/assert"
 )

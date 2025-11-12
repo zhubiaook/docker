@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"bytes"
@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/errdefs"
 )
 
 func TestImagePushReferenceError(t *testing.T) {

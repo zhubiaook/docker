@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/testutils"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/ns"
+	"github.com/zhubiaook/docker/libnetwork/testutils"
+	"github.com/zhubiaook/docker/libnetwork/types"
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netlink/nl"
 	"github.com/vishvananda/netns"

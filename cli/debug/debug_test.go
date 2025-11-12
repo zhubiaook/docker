@@ -1,4 +1,4 @@
-package debug // import "github.com/docker/docker/cli/debug"
+package debug // import "github.com/zhubiaook/docker/cli/debug"
 
 import (
 	"os"

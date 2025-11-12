@@ -1,8 +1,8 @@
-package service // import "github.com/docker/docker/volume/service"
+package service // import "github.com/zhubiaook/docker/volume/service"
 
 import (
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/volume"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/volume"
 )
 
 // By is an interface which is used to implement filtering on volumes.

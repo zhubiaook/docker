@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/zhubiaook/docker/builder/dockerfile"
 
 import (
 	"context"
@@ -7,14 +7,14 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/backend"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/builder"
+	"github.com/zhubiaook/docker/builder/remotecontext"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
+	"github.com/zhubiaook/docker/pkg/archive"
 	"github.com/docker/go-connections/nat"
 	"github.com/opencontainers/go-digest"
 	"gotest.tools/v3/assert"

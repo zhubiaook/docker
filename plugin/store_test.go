@@ -1,11 +1,11 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/zhubiaook/docker/plugin"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/plugingetter"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/pkg/plugingetter"
+	v2 "github.com/zhubiaook/docker/plugin/v2"
 )
 
 func TestFilterByCapNeg(t *testing.T) {

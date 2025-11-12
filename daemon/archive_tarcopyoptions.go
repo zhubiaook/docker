@@ -1,7 +1,7 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
-	"github.com/docker/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/archive"
 )
 
 // defaultTarCopyOptions is the setting that is used when unpacking an archive

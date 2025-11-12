@@ -7,14 +7,14 @@
 // read-only and writable layers. The exported
 // tar data for a read-only layer should match
 // the tar used to create the layer.
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/zhubiaook/docker/layer"
 
 import (
 	"errors"
 	"io"
 
 	"github.com/docker/distribution"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/archive"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

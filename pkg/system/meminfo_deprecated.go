@@ -1,6 +1,6 @@
 package system
 
-import "github.com/docker/docker/pkg/meminfo"
+import "github.com/zhubiaook/docker/pkg/meminfo"
 
 // MemInfo contains memory statistics of the host system.
 //

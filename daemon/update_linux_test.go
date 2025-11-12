@@ -1,9 +1,9 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/container"
 )
 
 func TestToContainerdResources_Defaults(t *testing.T) {

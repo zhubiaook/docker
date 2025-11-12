@@ -5,7 +5,7 @@ import (
 
 	cerrdefs "github.com/containerd/containerd/errdefs"
 	containerdimages "github.com/containerd/containerd/images"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

@@ -17,7 +17,7 @@
 // before and after each step, such as creating an image ID and removing temporary
 // containers and images. Note that ONBUILD creates a kinda-sorta "sub run" which
 // includes its own set of steps (usually only one of them).
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/zhubiaook/docker/builder/dockerfile"
 
 import (
 	"context"
@@ -25,12 +25,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/oci"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/runconfig/opts"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/builder"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/oci"
+	"github.com/zhubiaook/docker/pkg/system"
+	"github.com/zhubiaook/docker/runconfig/opts"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"github.com/moby/buildkit/frontend/dockerfile/shell"
 	"github.com/pkg/errors"

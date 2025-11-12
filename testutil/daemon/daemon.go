@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/testutil/daemon"
+package daemon // import "github.com/zhubiaook/docker/testutil/daemon"
 
 import (
 	"bufio"
@@ -15,14 +15,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/tailfile"
-	"github.com/docker/docker/testutil/request"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/events"
+	"github.com/zhubiaook/docker/client"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/pkg/ioutils"
+	"github.com/zhubiaook/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/pkg/tailfile"
+	"github.com/zhubiaook/docker/testutil/request"
 	"github.com/docker/go-connections/sockets"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/pkg/errors"

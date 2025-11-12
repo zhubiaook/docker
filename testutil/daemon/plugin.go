@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/client"
 	"gotest.tools/v3/poll"
 )
 

@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/dockerversion"
+	"github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/dockerversion"
 )
 
 // AuthenticateToRegistry checks the validity of credentials in authConfig

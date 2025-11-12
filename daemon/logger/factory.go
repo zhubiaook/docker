@@ -1,12 +1,12 @@
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/zhubiaook/docker/daemon/logger"
 
 import (
 	"fmt"
 	"sort"
 	"sync"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/pkg/plugingetter"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/pkg/plugingetter"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

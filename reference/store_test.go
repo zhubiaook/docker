@@ -1,4 +1,4 @@
-package reference // import "github.com/docker/docker/reference"
+package reference // import "github.com/zhubiaook/docker/reference"
 
 import (
 	"bytes"
@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/opencontainers/go-digest"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/netutils"
-	"github.com/docker/docker/libnetwork/ns"
+	"github.com/zhubiaook/docker/libnetwork/driverapi"
+	"github.com/zhubiaook/docker/libnetwork/netutils"
+	"github.com/zhubiaook/docker/libnetwork/ns"
 	"github.com/sirupsen/logrus"
 )
 

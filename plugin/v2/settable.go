@@ -1,4 +1,4 @@
-package v2 // import "github.com/docker/docker/plugin/v2"
+package v2 // import "github.com/zhubiaook/docker/plugin/v2"
 
 import (
 	"errors"

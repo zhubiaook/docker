@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/zhubiaook/docker/container"
 
 import (
 	"os"
@@ -9,13 +9,13 @@ import (
 	"syscall"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"github.com/zhubiaook/docker/api/types"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	mounttypes "github.com/zhubiaook/docker/api/types/mount"
+	swarmtypes "github.com/zhubiaook/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/volume"
+	volumemounts "github.com/zhubiaook/docker/volume/mounts"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"

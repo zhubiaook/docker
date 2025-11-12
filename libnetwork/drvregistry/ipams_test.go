@@ -5,10 +5,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/ipamapi"
-	builtinIpam "github.com/docker/docker/libnetwork/ipams/builtin"
-	nullIpam "github.com/docker/docker/libnetwork/ipams/null"
-	remoteIpam "github.com/docker/docker/libnetwork/ipams/remote"
+	"github.com/zhubiaook/docker/libnetwork/ipamapi"
+	builtinIpam "github.com/zhubiaook/docker/libnetwork/ipams/builtin"
+	nullIpam "github.com/zhubiaook/docker/libnetwork/ipams/null"
+	remoteIpam "github.com/zhubiaook/docker/libnetwork/ipams/remote"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

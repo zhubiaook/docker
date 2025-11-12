@@ -1,4 +1,4 @@
-package sysinfo // import "github.com/docker/docker/pkg/sysinfo"
+package sysinfo // import "github.com/zhubiaook/docker/pkg/sysinfo"
 
 import "golang.org/x/sys/unix"
 

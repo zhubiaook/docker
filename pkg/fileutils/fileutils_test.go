@@ -1,4 +1,4 @@
-package fileutils // import "github.com/docker/docker/pkg/fileutils"
+package fileutils // import "github.com/zhubiaook/docker/pkg/fileutils"
 
 import (
 	"errors"

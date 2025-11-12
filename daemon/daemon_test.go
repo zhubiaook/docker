@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"os"
@@ -6,12 +6,12 @@ import (
 	"runtime"
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/pkg/idtools"
-	volumesservice "github.com/docker/docker/volume/service"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/libnetwork"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	volumesservice "github.com/zhubiaook/docker/volume/service"
 	"github.com/docker/go-connections/nat"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
@@ -19,7 +19,7 @@ import (
 )
 
 //
-// https://github.com/docker/docker/issues/8069
+// https://github.com/zhubiaook/docker/issues/8069
 //
 
 func TestGetContainer(t *testing.T) {

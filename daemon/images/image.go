@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/zhubiaook/docker/daemon/images"
 
 import (
 	"context"
@@ -12,10 +12,10 @@ import (
 	"github.com/containerd/containerd/leases"
 	"github.com/containerd/containerd/platforms"
 	"github.com/docker/distribution/reference"
-	imagetypes "github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	imagetypes "github.com/zhubiaook/docker/api/types/image"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

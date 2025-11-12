@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package devmapper // import "github.com/docker/docker/daemon/graphdriver/devmapper"
+package devmapper // import "github.com/zhubiaook/docker/daemon/graphdriver/devmapper"
 
 import (
 	"fmt"
@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/graphtest"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/zhubiaook/docker/daemon/graphdriver"
+	"github.com/zhubiaook/docker/daemon/graphdriver/graphtest"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/parsers/kernel"
 	"golang.org/x/sys/unix"
 )
 

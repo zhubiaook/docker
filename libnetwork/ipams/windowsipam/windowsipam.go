@@ -3,8 +3,8 @@ package windowsipam
 import (
 	"net"
 
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/ipamapi"
+	"github.com/zhubiaook/docker/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

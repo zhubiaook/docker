@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"bufio"
@@ -13,8 +13,8 @@ import (
 
 	statsV1 "github.com/containerd/cgroups/v3/cgroup1/stats"
 	statsV2 "github.com/containerd/cgroups/v3/cgroup2/stats"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/container"
 	"github.com/pkg/errors"
 )
 

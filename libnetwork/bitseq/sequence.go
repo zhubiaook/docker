@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/docker/docker/libnetwork/bitmap"
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/bitmap"
+	"github.com/zhubiaook/docker/libnetwork/datastore"
+	"github.com/zhubiaook/docker/libnetwork/types"
 )
 
 var (

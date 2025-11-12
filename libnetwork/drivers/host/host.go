@@ -3,10 +3,10 @@ package host
 import (
 	"sync"
 
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/discoverapi"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/datastore"
+	"github.com/zhubiaook/docker/libnetwork/discoverapi"
+	"github.com/zhubiaook/docker/libnetwork/driverapi"
+	"github.com/zhubiaook/docker/libnetwork/types"
 )
 
 const networkType = "host"

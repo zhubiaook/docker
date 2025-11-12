@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/zhubiaook/docker/container"
 
 import (
 	"bytes"
@@ -15,26 +15,26 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/cio"
-	containertypes "github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/jsonfilelog"
-	"github.com/docker/docker/daemon/logger/local"
-	"github.com/docker/docker/daemon/logger/loggerutils/cache"
-	"github.com/docker/docker/daemon/network"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
-	"github.com/docker/docker/oci"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/restartmanager"
-	"github.com/docker/docker/volume"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	mounttypes "github.com/zhubiaook/docker/api/types/mount"
+	swarmtypes "github.com/zhubiaook/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/container/stream"
+	"github.com/zhubiaook/docker/daemon/logger"
+	"github.com/zhubiaook/docker/daemon/logger/jsonfilelog"
+	"github.com/zhubiaook/docker/daemon/logger/local"
+	"github.com/zhubiaook/docker/daemon/logger/loggerutils/cache"
+	"github.com/zhubiaook/docker/daemon/network"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
+	libcontainerdtypes "github.com/zhubiaook/docker/libcontainerd/types"
+	"github.com/zhubiaook/docker/oci"
+	"github.com/zhubiaook/docker/pkg/containerfs"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/ioutils"
+	"github.com/zhubiaook/docker/restartmanager"
+	"github.com/zhubiaook/docker/volume"
+	volumemounts "github.com/zhubiaook/docker/volume/mounts"
 	units "github.com/docker/go-units"
 	agentexec "github.com/moby/swarmkit/v2/agent/exec"
 	"github.com/moby/sys/signal"
@@ -544,7 +544,7 @@ func (container *Container) StopTimeout() int {
 // The non-recommended host configuration in the start api can
 // make these fields nil again, this corrects that issue until
 // we remove that behavior for good.
-// See https://github.com/docker/docker/pull/17779
+// See https://github.com/zhubiaook/docker/pull/17779
 // for a more detailed explanation on why we don't want that.
 func (container *Container) InitDNSHostConfig() {
 	container.Lock()

@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/zhubiaook/docker/registry"
 
 import (
 	"context"
@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types/registry"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/sirupsen/logrus"
 )
 

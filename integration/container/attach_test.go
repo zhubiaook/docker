@@ -1,12 +1,12 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/zhubiaook/docker/integration/container"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/network"
 	"gotest.tools/v3/assert"
 )
 

@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"bytes"
@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/types"
+	"github.com/zhubiaook/docker/api"
+	"github.com/zhubiaook/docker/api/types"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/env"

@@ -1,15 +1,15 @@
-package server // import "github.com/docker/docker/api/server"
+package server // import "github.com/zhubiaook/docker/api/server"
 
 import (
 	"context"
 	"net/http"
 
-	"github.com/docker/docker/api/server/httpstatus"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/server/middleware"
-	"github.com/docker/docker/api/server/router"
-	"github.com/docker/docker/api/server/router/debug"
-	"github.com/docker/docker/dockerversion"
+	"github.com/zhubiaook/docker/api/server/httpstatus"
+	"github.com/zhubiaook/docker/api/server/httputils"
+	"github.com/zhubiaook/docker/api/server/middleware"
+	"github.com/zhubiaook/docker/api/server/router"
+	"github.com/zhubiaook/docker/api/server/router/debug"
+	"github.com/zhubiaook/docker/dockerversion"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 )

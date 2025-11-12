@@ -1,14 +1,14 @@
-package network // import "github.com/docker/docker/integration/network"
+package network // import "github.com/zhubiaook/docker/integration/network"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/integration/internal/network"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/integration/internal/container"
+	"github.com/zhubiaook/docker/integration/internal/network"
+	"github.com/zhubiaook/docker/testutil/daemon"
 	"gotest.tools/v3/poll"
 	"gotest.tools/v3/skip"
 )

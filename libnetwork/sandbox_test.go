@@ -5,12 +5,12 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/config"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
-	"github.com/docker/docker/libnetwork/osl"
-	"github.com/docker/docker/libnetwork/testutils"
+	"github.com/zhubiaook/docker/libnetwork/config"
+	"github.com/zhubiaook/docker/libnetwork/ipamapi"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/options"
+	"github.com/zhubiaook/docker/libnetwork/osl"
+	"github.com/zhubiaook/docker/libnetwork/testutils"
 	"gotest.tools/v3/skip"
 )
 

@@ -6,8 +6,8 @@ package daemon
 import (
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/daemon/config"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/daemon/config"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/v3/assert"
 )

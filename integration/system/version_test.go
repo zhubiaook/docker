@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/zhubiaook/docker/integration/system"
 
 import (
 	"context"

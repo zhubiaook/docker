@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/integration-cli/daemon"
+package daemon // import "github.com/zhubiaook/docker/integration-cli/daemon"
 
 import (
 	"context"
@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/client"
 	"gotest.tools/v3/assert"
 )
 

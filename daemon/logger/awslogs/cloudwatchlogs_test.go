@@ -1,4 +1,4 @@
-package awslogs // import "github.com/docker/docker/daemon/logger/awslogs"
+package awslogs // import "github.com/zhubiaook/docker/daemon/logger/awslogs"
 
 import (
 	"context"
@@ -19,9 +19,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs/types"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/dockerversion"
+	"github.com/zhubiaook/docker/daemon/logger"
+	"github.com/zhubiaook/docker/daemon/logger/loggerutils"
+	"github.com/zhubiaook/docker/dockerversion"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

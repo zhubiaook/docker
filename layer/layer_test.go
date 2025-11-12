@@ -1,4 +1,4 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/zhubiaook/docker/layer"
 
 import (
 	"bytes"
@@ -11,11 +11,11 @@ import (
 	"testing"
 
 	"github.com/containerd/continuity/driver"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/vfs"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/zhubiaook/docker/daemon/graphdriver"
+	"github.com/zhubiaook/docker/daemon/graphdriver/vfs"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/stringid"
 	"github.com/opencontainers/go-digest"
 )
 

@@ -1,22 +1,22 @@
-package urlutil // import "github.com/docker/docker/builder/remotecontext/urlutil"
+package urlutil // import "github.com/zhubiaook/docker/builder/remotecontext/urlutil"
 
 import "testing"
 
 var (
 	gitUrls = []string{
-		"git://github.com/docker/docker",
+		"git://github.com/zhubiaook/docker",
 		"git@github.com:docker/docker.git",
 		"git@bitbucket.org:atlassianlabs/atlassian-docker.git",
-		"https://github.com/docker/docker.git",
-		"http://github.com/docker/docker.git",
-		"http://github.com/docker/docker.git#branch",
-		"http://github.com/docker/docker.git#:dir",
+		"https://github.com/zhubiaook/docker.git",
+		"http://github.com/zhubiaook/docker.git",
+		"http://github.com/zhubiaook/docker.git#branch",
+		"http://github.com/zhubiaook/docker.git#:dir",
 	}
 	incompleteGitUrls = []string{
-		"github.com/docker/docker",
+		"github.com/zhubiaook/docker",
 	}
 	invalidGitUrls = []string{
-		"http://github.com/docker/docker.git:#branch",
+		"http://github.com/zhubiaook/docker.git:#branch",
 	}
 )
 

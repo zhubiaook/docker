@@ -13,9 +13,9 @@ import (
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/daemon/config"
+	"github.com/zhubiaook/docker/errdefs"
 )
 
 func TestInitRuntimes_InvalidConfigs(t *testing.T) {

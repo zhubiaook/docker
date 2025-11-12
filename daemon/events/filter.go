@@ -1,9 +1,9 @@
-package events // import "github.com/docker/docker/daemon/events"
+package events // import "github.com/zhubiaook/docker/daemon/events"
 
 import (
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/events"
+	"github.com/zhubiaook/docker/api/types/filters"
 )
 
 // Filter can filter out docker events from a stream

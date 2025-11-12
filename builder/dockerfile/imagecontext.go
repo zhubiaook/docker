@@ -1,13 +1,13 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/zhubiaook/docker/builder/dockerfile"
 
 import (
 	"context"
 	"runtime"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	dockerimage "github.com/docker/docker/image"
+	"github.com/zhubiaook/docker/api/types/backend"
+	"github.com/zhubiaook/docker/builder"
+	dockerimage "github.com/zhubiaook/docker/image"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

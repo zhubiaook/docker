@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/zhubiaook/docker/daemon"
 
 import (
 	"context"
@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/pkg/rootless"
-	"github.com/docker/docker/pkg/sysinfo"
+	"github.com/zhubiaook/docker/api/types"
+	containertypes "github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/pkg/rootless"
+	"github.com/zhubiaook/docker/pkg/sysinfo"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

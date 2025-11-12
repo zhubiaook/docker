@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/zhubiaook/docker/client"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
+	"github.com/zhubiaook/docker/api/types"
 )
 
 // DiskUsage requests the current data usage from the daemon

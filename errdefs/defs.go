@@ -1,4 +1,4 @@
-package errdefs // import "github.com/docker/docker/errdefs"
+package errdefs // import "github.com/zhubiaook/docker/errdefs"
 
 // ErrNotFound signals that the requested object doesn't exist
 type ErrNotFound interface {

@@ -1,4 +1,4 @@
-package opts // import "github.com/docker/docker/opts"
+package opts // import "github.com/zhubiaook/docker/opts"
 
 import (
 	"net"
@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/zhubiaook/docker/pkg/homedir"
 	"github.com/pkg/errors"
 )
 

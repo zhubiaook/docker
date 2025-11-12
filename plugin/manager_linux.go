@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/zhubiaook/docker/plugin"
 
 import (
 	"context"
@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/content"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/daemon/initlayer"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/pkg/stringid"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/daemon/initlayer"
+	"github.com/zhubiaook/docker/errdefs"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/plugins"
+	"github.com/zhubiaook/docker/pkg/stringid"
+	v2 "github.com/zhubiaook/docker/plugin/v2"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

@@ -11,7 +11,7 @@ Most people should use the [official Registry docker image](https://hub.docker.c
 
 People looking for advanced operational use cases might consider rolling their own image with a custom Dockerfile inheriting `FROM registry:2`.
 
-OS X users who want to run natively can do so following [the instructions here](https://github.com/docker/docker.github.io/blob/master/registry/recipes/osx-setup-guide.md).
+OS X users who want to run natively can do so following [the instructions here](https://github.com/zhubiaook/docker.github.io/blob/master/registry/recipes/osx-setup-guide.md).
 
 ### Gotchas
 
@@ -82,7 +82,7 @@ build:
     + vet
     + lint
     + build
-    github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar
+    github.com/zhubiaook/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar
     github.com/sirupsen/logrus
     github.com/docker/libtrust
     ...

@@ -1,4 +1,4 @@
-package supervisor // import "github.com/docker/docker/libcontainerd/supervisor"
+package supervisor // import "github.com/zhubiaook/docker/libcontainerd/supervisor"
 
 import (
 	"os"
@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/defaults"
-	"github.com/docker/docker/pkg/process"
+	"github.com/zhubiaook/docker/pkg/process"
 )
 
 const (

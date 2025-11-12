@@ -1,10 +1,10 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/zhubiaook/docker/builder/dockerfile"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/builder"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/sirupsen/logrus"
 )

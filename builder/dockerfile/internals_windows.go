@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/zhubiaook/docker/builder/dockerfile"
 
 import (
 	"bytes"
@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/api/types/mount"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/jsonmessage"
 	"golang.org/x/sys/windows"
 )
 

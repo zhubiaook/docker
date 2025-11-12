@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/zhubiaook/docker/daemon/images"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 
 	"github.com/containerd/containerd/content"
 	"github.com/containerd/containerd/leases"
-	"github.com/docker/docker/container"
-	daemonevents "github.com/docker/docker/daemon/events"
-	"github.com/docker/docker/distribution"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/distribution/xfer"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	dockerreference "github.com/docker/docker/reference"
+	"github.com/zhubiaook/docker/container"
+	daemonevents "github.com/zhubiaook/docker/daemon/events"
+	"github.com/zhubiaook/docker/distribution"
+	"github.com/zhubiaook/docker/distribution/metadata"
+	"github.com/zhubiaook/docker/distribution/xfer"
+	"github.com/zhubiaook/docker/image"
+	"github.com/zhubiaook/docker/layer"
+	dockerreference "github.com/zhubiaook/docker/reference"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

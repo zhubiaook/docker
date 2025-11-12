@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/docker/docker/libnetwork/bitseq"
-	"github.com/docker/docker/libnetwork/datastore"
+	"github.com/zhubiaook/docker/libnetwork/bitseq"
+	"github.com/zhubiaook/docker/libnetwork/datastore"
 )
 
 // Idm manages the reservation/release of numerical ids from a contiguous set

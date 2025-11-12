@@ -1,4 +1,4 @@
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/zhubiaook/docker/pkg/chrootarchive"
 
 import (
 	"fmt"
@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/idtools"
 )
 
 // NewArchiver returns a new Archiver which uses chrootarchive.Untar

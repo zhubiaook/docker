@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/zhubiaook/docker/registry"
 
 import (
 	"reflect"
@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/errdefs"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

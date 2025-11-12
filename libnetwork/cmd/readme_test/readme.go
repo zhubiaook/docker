@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/libnetwork/config"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
+	"github.com/zhubiaook/docker/libnetwork"
+	"github.com/zhubiaook/docker/libnetwork/config"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/options"
 )
 
 func main() {

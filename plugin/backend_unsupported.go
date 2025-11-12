@@ -1,7 +1,7 @@
 //go:build !linux
 // +build !linux
 
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/zhubiaook/docker/plugin"
 
 import (
 	"context"
@@ -10,9 +10,9 @@ import (
 	"net/http"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/registry"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/filters"
+	"github.com/zhubiaook/docker/api/types/registry"
 )
 
 var errNotSupported = errors.New("plugins are not supported on this platform")

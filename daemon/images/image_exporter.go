@@ -1,11 +1,11 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/zhubiaook/docker/daemon/images"
 
 import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/image/tarexport"
+	"github.com/zhubiaook/docker/container"
+	"github.com/zhubiaook/docker/image/tarexport"
 	"github.com/sirupsen/logrus"
 )
 

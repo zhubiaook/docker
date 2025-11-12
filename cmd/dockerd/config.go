@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/registry"
+	"github.com/zhubiaook/docker/daemon/config"
+	"github.com/zhubiaook/docker/opts"
+	"github.com/zhubiaook/docker/registry"
 	"github.com/spf13/pflag"
 )
 

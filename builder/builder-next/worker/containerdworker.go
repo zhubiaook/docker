@@ -3,8 +3,8 @@ package worker
 import (
 	"context"
 
-	mobyexporter "github.com/docker/docker/builder/builder-next/exporter"
-	"github.com/docker/docker/builder/builder-next/exporter/overrides"
+	mobyexporter "github.com/zhubiaook/docker/builder/builder-next/exporter"
+	"github.com/zhubiaook/docker/builder/builder-next/exporter/overrides"
 	"github.com/moby/buildkit/client"
 	"github.com/moby/buildkit/exporter"
 	"github.com/moby/buildkit/session"

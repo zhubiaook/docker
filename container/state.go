@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/zhubiaook/docker/container"
 
 import (
 	"context"
@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
+	"github.com/zhubiaook/docker/api/types"
+	libcontainerdtypes "github.com/zhubiaook/docker/libcontainerd/types"
 	units "github.com/docker/go-units"
 )
 

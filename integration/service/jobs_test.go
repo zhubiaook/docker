@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/integration/internal/swarm"
+	"github.com/zhubiaook/docker/api/types"
+	swarmtypes "github.com/zhubiaook/docker/api/types/swarm"
+	"github.com/zhubiaook/docker/integration/internal/swarm"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/poll"
 	"gotest.tools/v3/skip"

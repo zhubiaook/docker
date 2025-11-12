@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/zhubiaook/docker/container"
 
 import (
 	"bytes"
@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/errdefs"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/network"
+	"github.com/zhubiaook/docker/errdefs"
 	"github.com/docker/go-connections/nat"
 	memdb "github.com/hashicorp/go-memdb"
 	"github.com/sirupsen/logrus"

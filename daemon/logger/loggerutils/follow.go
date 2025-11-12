@@ -1,11 +1,11 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "github.com/zhubiaook/docker/daemon/logger/loggerutils"
 
 import (
 	"fmt"
 	"io"
 	"os"
 
-	"github.com/docker/docker/daemon/logger"
+	"github.com/zhubiaook/docker/daemon/logger"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

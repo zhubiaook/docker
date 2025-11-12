@@ -1,11 +1,11 @@
 // FIXME(thaJeztah): remove once we are a module; the go:build directive prevents go from downgrading language version to go1.16:
 //go:build go1.19
 
-package system // import "github.com/docker/docker/api/server/router/system"
+package system // import "github.com/zhubiaook/docker/api/server/router/system"
 
 import (
-	"github.com/docker/docker/api/server/router"
-	buildkit "github.com/docker/docker/builder/builder-next"
+	"github.com/zhubiaook/docker/api/server/router"
+	buildkit "github.com/zhubiaook/docker/builder/builder-next"
 )
 
 // systemRouter provides information about the Docker system overall.

@@ -6,10 +6,10 @@ package bridge
 import (
 	"testing"
 
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/testutils"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/zhubiaook/docker/libnetwork/netlabel"
+	"github.com/zhubiaook/docker/libnetwork/ns"
+	"github.com/zhubiaook/docker/libnetwork/testutils"
+	"github.com/zhubiaook/docker/libnetwork/types"
 )
 
 func TestPortMappingConfig(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"github.com/containerd/containerd/oci"
 	"github.com/containerd/containerd/pkg/userns"
 	"github.com/containerd/continuity/fs"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/idtools"
 	"github.com/mitchellh/hashstructure/v2"
 	"github.com/moby/buildkit/executor"
 	"github.com/moby/buildkit/snapshot"

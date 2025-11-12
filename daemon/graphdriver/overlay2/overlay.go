@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package overlay2 // import "github.com/docker/docker/daemon/graphdriver/overlay2"
+package overlay2 // import "github.com/zhubiaook/docker/daemon/graphdriver/overlay2"
 
 import (
 	"context"
@@ -16,16 +16,16 @@ import (
 	"sync"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/overlayutils"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/quota"
+	"github.com/zhubiaook/docker/daemon/graphdriver"
+	"github.com/zhubiaook/docker/daemon/graphdriver/overlayutils"
+	"github.com/zhubiaook/docker/pkg/archive"
+	"github.com/zhubiaook/docker/pkg/chrootarchive"
+	"github.com/zhubiaook/docker/pkg/containerfs"
+	"github.com/zhubiaook/docker/pkg/directory"
+	"github.com/zhubiaook/docker/pkg/idtools"
+	"github.com/zhubiaook/docker/pkg/ioutils"
+	"github.com/zhubiaook/docker/pkg/parsers"
+	"github.com/zhubiaook/docker/quota"
 	units "github.com/docker/go-units"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"

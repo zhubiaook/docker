@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/zhubiaook/docker/image"
 
 import (
 	"encoding/json"
@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/layer"
+	"github.com/zhubiaook/docker/api/types/container"
+	"github.com/zhubiaook/docker/dockerversion"
+	"github.com/zhubiaook/docker/layer"
 	"github.com/opencontainers/go-digest"
 )
 

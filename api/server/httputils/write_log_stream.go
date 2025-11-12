@@ -1,4 +1,4 @@
-package httputils // import "github.com/docker/docker/api/server/httputils"
+package httputils // import "github.com/zhubiaook/docker/api/server/httputils"
 
 import (
 	"context"
@@ -7,11 +7,11 @@ import (
 	"net/url"
 	"sort"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/zhubiaook/docker/api/types"
+	"github.com/zhubiaook/docker/api/types/backend"
+	"github.com/zhubiaook/docker/pkg/ioutils"
+	"github.com/zhubiaook/docker/pkg/jsonmessage"
+	"github.com/zhubiaook/docker/pkg/stdcopy"
 )
 
 // WriteLogStream writes an encoded byte stream of log messages from the

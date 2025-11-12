@@ -3,7 +3,7 @@ package image
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/strslice"
+	"github.com/zhubiaook/docker/api/types/strslice"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 
